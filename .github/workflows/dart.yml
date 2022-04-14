@@ -3,22 +3,14 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-<<<<<<< HEAD
-name: dukou_checkin
-=======
 name: dukou_checkin_2
->>>>>>> fb88a751a7093c6b0c8faa3c36de0cfa73c6bf2e
 
 on:
   push:
     branches:
       - main
   schedule:
-<<<<<<< HEAD
     - cron: '10 3 * * *'
-=======
-    - cron: '35 2 * * *'
->>>>>>> fb88a751a7093c6b0c8faa3c36de0cfa73c6bf2e
 
 jobs:
   dukou_checkin:
