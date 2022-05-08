@@ -3,14 +3,14 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: dukou_checkin_2
+name: dukou_checkin_for_account2
 
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: '15 3 * * *'
+    - cron: '55 6 * * *'
 
 jobs:
   dukou_checkin:
